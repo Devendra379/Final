@@ -2,7 +2,6 @@ python-dateutil
 pytorch
 altair
 attrs
-blas
 blinker
 brotli-python
 ca-certificates
@@ -13,7 +12,6 @@ charset-normalizer
 click
 cryptography
 filelock
-freetype
 fsspec
 gitdb
 gitpython
@@ -25,13 +23,10 @@ importlib-metadata
 jinja2
 jpeg
 jsonschema
-jsonschema-specifications
 lcms2
 lerc
-libcxx
 libdeflate
 libffi
-libgfortran
 libgfortran5
 libjpeg-turbo
 libopenblas
@@ -49,13 +44,11 @@ mpmath
 ncurses
 networkx
 numpy
-numpy-base
 openjpeg
 openssl
 packaging
 pandas
 pillow
-pip
 protobuf
 pyarrow
 pycparser
