@@ -37,7 +37,7 @@ def generate_caption(processor, model, device, image):
 def main():
     set_page_config()
     st.header("Caption an Image :camera:")
-
+    processor, model, device = initialize_model()
     uploaded_image = upload_image()
 
     if uploaded_image is not None:
@@ -50,7 +50,6 @@ def main():
             st.divider() 
             if st.sidebar.button('Generate Caption'):
                 with st.spinner('Generating caption...'):
-                    processor, model, device = initialize_model()
                     caption = generate_caption(processor, model, device, image)
                     st.header("Caption:")
                     st.markdown(f'**{caption}**')
